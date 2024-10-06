@@ -1,0 +1,49 @@
+.fc-dayGridMonth-button {
+  background: red;
+  color: black;
+  border: 3px solid white;
+}
+
+.fc-header-toolbar,
+.fc-toolbar,
+.fc-toolbar-ltr {
+  margin-bottom: 0 px;
+}
+
+.fc-col-header-cell {
+  padding: 8px !important;
+  background: #ffffff !important;
+}
+
+.fc-scrollgrid {
+  background: #f3f6ff;
+}
+
+.fc-day {
+  background: #f3f6ff;
+  height: 150px;
+}
+.fc-col-header-cell {
+  height: auto !important;
+}
+.fc-scrollgrid {
+  border-radius: 6px;
+}
+.fc-daygrid-day-top {
+  display: block !important;
+}
+.fc-daygrid-day-frame:hover {
+  border: 1px solid #6968ec;
+}
+
+.fc-day-disabled {
+  background-color: #f5f5f5; /* Light grey color for disabled days */
+  pointer-events: none; /* Disable clicking on these days */
+  opacity: 0.5; /* Make it visually clear that the day is disabled */
+}
+
+.fc-time-disabled {
+  pointer-events: none; /* Disable clicking on time slots */
+  background-color: #f5f5f5; /* Light grey color for disabled time slots */
+  opacity: 0.5;
+}
